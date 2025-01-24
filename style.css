@@ -1,0 +1,229 @@
+.sec0{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.nav-link:hover{
+  text-decoration: underline;
+}
+  .hero{
+    background-image: url(images/asset\ 42.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .heroimg{
+    width: 40%;
+    margin-top: 20px;
+  }
+  .heroimg img{
+    width: 100%;
+  }
+  .heroheading1{
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .heroheading1 h1{
+    width: 650px;
+    font-size: 35px;
+    color: rgb(103, 103, 103);
+  }
+
+  .hero5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+    
+  }
+  .hero5img1{
+    transition: transform 0.3s ease;
+  }
+  .hero5img1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .hero5img2{
+    transition: transform 0.3s ease;
+  }
+  .hero5img2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .hero5img3{
+    transition: transform 0.3s ease;
+  }
+  .hero5img3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+.hero5img1{
+  border-radius: 10px;
+  margin-top: 15px;
+  background-image: url(images/asset\ 12.jpeg);
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 240px;
+background-size: cover;
+
+}
+.hero5img2{
+  border-radius: 10px;
+  margin-top: 15px;
+  background-image: url(images/asset\ 13.jpeg);
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 240px;
+background-size: cover;
+}
+.hero5img3{
+  border-radius: 10px;
+  margin-top: 15px;
+  background-image: url(images/asset\ 14.jpeg);
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 240px;
+background-size: cover;
+}
+.hero5img1 button{
+  text-align: center;
+  margin-left: 20px;
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(19, 217, 1, 0.637);
+  color: white;
+  margin-top: 180px;
+}
+.hero5img2 button{
+  text-align: center;
+  margin-left: 20px;
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(19, 217, 1, 0.637);
+  color: white;
+  margin-top: 180px;
+}
+.hero5img3 button{
+  text-align: center;
+  margin-left: 20px;
+  width: 80%;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(19, 217, 1, 0.637);
+  color: white;
+  margin-top: 180px;
+}
+.hero5img1 button:hover{
+  background-color:rgba(21, 255, 0, 0.637) ;
+}
+.hero5img2 button:hover{
+  background-color:rgba(21, 255, 0, 0.637) ;
+}
+.hero5img3 button:hover{
+  background-color:rgba(21, 255, 0, 0.637) ;
+}
+.extra{
+  text-align: center;
+  margin-top: 20px;
+}
+.extra p{
+  margin-top: 30px;
+  font-size: large;
+  color:rgb(21, 255, 0)  ;
+}
+.extra h3{
+  margin-top: 5px;
+}
+
+  .hero10{
+    background-image: url(images/asset\ 44.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 100%;
+    height: 170px;
+margin-top: 70px;
+gap: 10px;
+background-color:rgba(0, 94, 255, 0.795) ;
+border: none;
+  }
+  .hero10 h3{
+    color: white;
+  }
+  .hero10 input{
+    width: 300px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  .hero10 button{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+  }
+  .hero10 button:hover{
+    background-color: rgb(248, 248, 248);
+    cursor: pointer;
+  }
+  .footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(87, 87, 87, 0.893);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+  }
+  .footerimg{
+    background-image: url(images/asset\ 1.png);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 50px;
+    background-size: contain;
+    margin-left: 40px;
+  }
+  
+  .footerimg img{
+    margin-top: 80px;
+    width: 40px;
+    margin-left: 30px;
+    border-radius:5px ;
+  }
+  .end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    text-align: center;
+    background-color: gray;
+    height: 40px;
+  }
+  
+  
+  
